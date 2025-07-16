@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: anime-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: TOKEN
+        value: 8087642219:AAEp-vuWjecCWxjcOMQUGWQjXbcZuKGCwWU
